@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
     },
     txtDisplay:{
         color: '#fff',
-        fontFamily: 'Poppins-Medium',
         fontSize: 48
     }
 });

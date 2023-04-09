@@ -11,7 +11,12 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor="white" barStyle="dark-content"/>
       <Display />
-      <Buttons />
+      <View style={styles.containerButtons}>
+        <Buttons />
+        <Buttons />
+        <Buttons />
+        <Buttons />
+      </View>
     </SafeAreaView>
   );
 }
