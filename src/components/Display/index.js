@@ -4,8 +4,8 @@ import styles from "./styles"; // Display StyleSheet
 
 export default function Display(){
     return(
-        <View>
-            <Text>Display component</Text>
+        <View style={styles.containerDisplay}>
+            <Text style={styles.txtDisplay}>Display component</Text>
         </View>
     );
 }
