@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     txtDisplay:{
         color: '#fff',
-        fontSize: 48
+        fontSize: 48,
     }
 });
 

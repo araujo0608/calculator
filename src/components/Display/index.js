@@ -7,7 +7,7 @@ export default function Display(){
 
     return(
         <View style={styles.containerDisplay}>
-            <Text style={styles.txtDisplay}>0</Text>
+            <Text style={styles.txtDisplay}> 0</Text>
         </View>
     );
 }

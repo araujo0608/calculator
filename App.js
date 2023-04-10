@@ -9,8 +9,11 @@ import styles from './styles'; //App StyleSheet
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
+
       <StatusBar backgroundColor="white" barStyle="dark-content"/>
+      
       <Display />
+      
       <View style={styles.containerGroups}>
         <View style={styles.groupNumbers}>
 
