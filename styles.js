@@ -55,7 +55,31 @@ const styles = StyleSheet.create({
         marginTop: 35,
         //backgroundColor: 'blue',
         width: '26%',
-    }
+    },
+
+    warning:{
+        margin: 20,
+        width: 200,
+        backgroundColor: 'rgb(255, 255, 255)',
+        borderRadius: 20,
+        padding: 15,
+        alignItems: 'center',
+        borderStyle: 'solid',
+        borderWidth: 5,
+        borderColor: 'red',
+        shadowColor: '#000',
+        shadowOffset: {
+          width: 0,
+          height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+      },
+      
+      txtWarning: {
+        fontWeight: 'bold'
+      },
 });
 
 export default styles;

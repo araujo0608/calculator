@@ -12,7 +12,7 @@ export default function Buttons(props){
 
     return(
         <TouchableOpacity 
-        onPress={() => console.warn("pressed")}
+        onPress={props.onClick}
         >
             <Text style={styledButtons}>{props.label}</Text>
         </TouchableOpacity>

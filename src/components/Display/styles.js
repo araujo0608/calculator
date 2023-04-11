@@ -12,6 +12,11 @@ const styles = StyleSheet.create({
     txtDisplay:{
         color: '#fff',
         fontSize: 48,
+    },
+
+    txtEqual:{
+        color: '#24A5FF',
+        fontSize: 42
     }
 });
 
